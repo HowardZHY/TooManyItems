@@ -1,10 +1,14 @@
 # TooManyItems
 An 1.8.9 update for the Too Many Items mod
-## There is a MCP Client and a Forge mod. Compile with MCP 918.
+## There is a MCP Client and a Forge mod. Decompiled with MCP 918. Compile with Forge 2318.
 
-## For developers:
+## For developers (eg. add TMI to your PERSONAL MCP Client):
 
-### You need to put net/minecraft/client/gui/inventory/GuiContainer.class in the jar's basal directory and rename as TMIGuiContainer.class after build in Forge env. 
+Use the net/minecraft/client/gui/inventory/GuiContainer.java. AND You need to make ATs for these 4 methods below by yourself in MCP.
+
+You need to put net/minecraft/client/gui/inventory/GuiContainer.class in the jar's basal directory and rename as TMIGuiContainer.class after build in Forge env. 
+
+###Welcome to fork it , but read the COPYRIGHT INFO first!
 
 META-INF:
 
