@@ -2,6 +2,8 @@
 An 1.8.9 update for the Too Many Items mod
 ## There is a MCP Client and a Forge mod. Decompiled with MCP 918. Compile with Forge 2318.
 
+## Legacy Fabric one: https://github.com/HowardZHY/TooManyItems-LegayFabric
+
 ## For developers (eg. add TMI to your PERSONAL MCP Client):
 
 Use the net/minecraft/client/gui/inventory/GuiContainer.java. AND You need to make ATs for these 4 methods below by yourself in MCP.
