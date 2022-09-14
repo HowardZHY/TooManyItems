@@ -31,6 +31,8 @@ public net.minecraft.nbt.NBTTagList func_74734_a(Ljava/io/DataOutput;)V #write
 
 ## COPYRIGHT INFO:
 
+Original Post: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272385-toomanyitems-the-inventory-editor-and-more-1-8
+
 "Copyright 2011-2014 Marglyph. Free for personal or educational use only. Do not redistribute TooManyItems, including in mod packs, and do not use TooManyItems\' source code or graphics in your own mods."
 
 The sources here is for personal or educational use only, as the Copyright is still belongs to Marglyph without further disagreement.
