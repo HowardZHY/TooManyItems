@@ -1,0 +1,9 @@
+accessWidener  v1  named
+
+accessible field net/minecraft/class_1127 field_9167
+
+accessible method net/minecraft/class_1641 method_5869 b(I)V
+
+accessible method net/minecraft/class_474 a (Ljava/io/DataInput;ILnet/minecraft/nbt/NBTSizeTracker;)V
+
+accessible method net/minecraft/class_474 a (Ljava/io/DataOutput;)V

@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.minecraft.src.mixin",
+  "refmap": "mixins.tmi.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinGuiContainer"
+  ]
+}

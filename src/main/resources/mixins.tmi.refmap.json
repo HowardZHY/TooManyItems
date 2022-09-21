@@ -1,0 +1,31 @@
+{
+  "mappings": {
+    "net/minecraft/src/mixin/GuiContainerMixin": {
+      "doesGuiPauseGame": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73868_f()Z",
+      "mouseClicked": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73864_a(III)V",
+      "Lnet/minecraft/client/renderer/RenderHelper;disableStandardItemLighting()V": "Lnet/minecraft/client/renderer/RenderHelper;func_74518_a()V",
+      "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+      "onGuiClosed": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146281_b()V"
+    }
+  },
+  "data": {
+    "notch": {
+      "net/minecraft/src/mixin/GuiContainerMixin": {
+        "doesGuiPauseGame": "Layl;d()Z",
+        "mouseClicked": "Layl;a(III)V",
+        "Lnet/minecraft/client/renderer/RenderHelper;disableStandardItemLighting()V": "Lavc;a()V",
+        "drawScreen": "Layl;a(IIF)V",
+        "onGuiClosed": "Layl;m()V"
+      }
+    },
+    "searge": {
+      "net/minecraft/src/mixin/GuiContainerMixin": {
+        "doesGuiPauseGame": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73868_f()Z",
+        "mouseClicked": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73864_a(III)V",
+        "Lnet/minecraft/client/renderer/RenderHelper;disableStandardItemLighting()V": "Lnet/minecraft/client/renderer/RenderHelper;func_74518_a()V",
+        "drawScreen": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_73863_a(IIF)V",
+        "onGuiClosed": "Lnet/minecraft/client/gui/inventory/GuiContainer;func_146281_b()V"
+      }
+    }
+  }
+}
