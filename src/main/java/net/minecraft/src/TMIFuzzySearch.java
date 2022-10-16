@@ -7,63 +7,32 @@ import java.util.LinkedList;
 import java.util.List;
 import net.minecraft.item.ItemStack;
 
-public class TMIFuzzySearch
-{
+public class TMIFuzzySearch {
     private List<ItemStack> baseItems;
     private String lastQuery;
     private Deque<List<TMISearchResult>> resultStack = new LinkedList();
 
-    public TMIFuzzySearch(List<ItemStack> p_i46387_1_)
-    {
+    public TMIFuzzySearch(List<ItemStack> p_i46387_1_) {
         this.baseItems = p_i46387_1_;
     }
 
-    public List<ItemStack> query(String p_query_1_)
-    {
-        if (p_query_1_ != null && !p_query_1_.equals(""))
-        {
-            int var2;
-
-            if (this.lastQuery != null && this.lastQuery.startsWith(p_query_1_))
-            {
-                for (var2 = 0; var2 < this.lastQuery.length() - p_query_1_.length(); ++var2)
-                {
-                    this.resultStack.pollLast();
-                }
-
-                return this.getResults();
-            }
-            else
-            {
-                var2 = 0;
-
-                if (this.lastQuery != null && p_query_1_.startsWith(this.lastQuery))
-                {
-                    var2 = this.lastQuery.length();
-                }
-                else
-                {
-                    while (true)
-                    {
-                        if (this.resultStack.pollLast() != null)
-                        {
-                            continue;
-                        }
-                    }
-                }
-
-                for (int var3 = var2; var3 < p_query_1_.length(); ++var3)
-                {
-                    this.pushQuery(p_query_1_.charAt(var3));
-                }
-
-                return this.getResults();
-            }
-        }
-        else
-        {
+    public List<ItemStack> query(String paramString) {
+        if (paramString == null || paramString.equals(""))
             return this.baseItems;
+        if (this.lastQuery != null && this.lastQuery.startsWith(paramString)) {
+            for (byte b = 0; b < this.lastQuery.length() - paramString.length(); b++)
+                this.resultStack.pollLast();
+            return getResults();
         }
+        int i = 0;
+        if (this.lastQuery == null || !paramString.startsWith(this.lastQuery)) {
+            while (this.resultStack.pollLast() != null) ;
+        } else {
+            i = this.lastQuery.length();
+        }
+        for (int j = i; j < paramString.length(); j++)
+            pushQuery(paramString.charAt(j));
+        return getResults();
     }
 
     public List<ItemStack> getResults()
