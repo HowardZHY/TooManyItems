@@ -1,5 +1,5 @@
 # TooManyItems
-An 1.8.9 update for the Too Many Items mod
+An Unoffical 1.8.9 update for the Too Many Items mod
 ## There is a MCP Client and a Forge mod. Decompiled with MCP 918. Compile with Forge 2318.
 
 ## Legacy Fabric one: https://github.com/HowardZHY/TooManyItems-LegayFabric
@@ -35,6 +35,6 @@ Original Post: https://www.minecraftforum.net/forums/mapping-and-modding-java-ed
 
 "Copyright 2011-2014 Marglyph. Free for personal or educational use only. Do not redistribute TooManyItems, including in mod packs, and do not use TooManyItems\' source code or graphics in your own mods."
 
-The sources here is for personal or educational use only, as the Copyright is still belongs to Marglyph without further disagreement.
+The resources here is for personal or educational use only, as the Copyright is still belongs to Marglyph without further disagreement.
 
  @RedCDev
