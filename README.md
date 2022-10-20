@@ -30,6 +30,7 @@ public net.minecraft.nbt.NBTTagList func_152446_a(Ljava/io/DataInput;ILnet/minec
 public net.minecraft.nbt.NBTTagList func_74734_a(Ljava/io/DataOutput;)V #write
 
 ## COPYRIGHT INFO:
+HowardZHY made this creation BUT it belongs to Marglyph:
 
 Original Post: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272385-toomanyitems-the-inventory-editor-and-more-1-8
 
