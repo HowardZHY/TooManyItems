@@ -16,6 +16,7 @@ public class TMISearchResult implements Comparable<TMISearchResult>
     protected static Pattern diacritics = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
     protected static Pattern styles = Pattern.compile("\u00a7.");
 
+    public Object TMISearchResult;
     public static TMISearchResult scan(ItemStack p_scan_0_, char p_scan_1_)
     {
         if (p_scan_0_ == null)

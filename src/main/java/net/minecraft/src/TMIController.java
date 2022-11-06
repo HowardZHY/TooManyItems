@@ -12,7 +12,7 @@ import org.lwjgl.opengl.GL11;
 
 public class TMIController
 {
-    public static final String COPYRIGHT = "Copyright 2011-2014 Marglyph. Free for personal or educational use only. Do not redistribute TooManyItems, including in mod packs, and do not use TooManyItems\' source code or graphics in your own mods. Cracked by HowardZHY for personal use en 2022.";
+    public static final String COPYRIGHT = "Copyright 2011-2014 Marglyph. Free for personal or educational use only. Do not redistribute TooManyItems, including in mod packs, and do not use TooManyItems\' source code or graphics in your own mods. Cracked by HowardZHY for personal and educational use en 2022.";
     private boolean once = false;
     private boolean isOpen = false;
     private int savedScreenWidth = 0;

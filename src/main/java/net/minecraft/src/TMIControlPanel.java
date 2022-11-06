@@ -73,7 +73,7 @@ public class TMIControlPanel extends TMIArea
         }
 
         var4 = (int)((float)(this.y + this.height - 15) * var6);
-        TMIDrawing.drawText((int)((float)var3 * var6), var4, "TMI 1.8.9 2022-08-02 HowardZHY", -3355444);
+        TMIDrawing.drawText((int)((float)var3 * var6), var4, "TMI 1.8.X Mixin 2022-11-06 HowardZHY", -3355444);
         GL11.glPopMatrix();
     }
 
