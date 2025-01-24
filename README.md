@@ -12,10 +12,15 @@ Now a 1.8.X Forge mod using mixin.
 ### META-INF:
 
 Manifest-Version: 1.0
+
 FMLCorePlugin: TMIForgeLoader
+
 FMLAT: TMI_at.cfg
+
 TweakClass: org.spongepowered.asm.launch.MixinTweaker
+
 TweakOrder: 0
+
 MixinConfigs: mixins.tmi.json
 
 ### TMI_at.cfg:
