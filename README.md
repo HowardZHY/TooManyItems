@@ -7,15 +7,16 @@ Now a 1.8.X Forge mod using mixin.
 
 ## Legacy Fabric one: https://github.com/HowardZHY/TooManyItems-LegayFabric
 
-### Welcome to fork it , but read the COPYRIGHT INFO first!
+### Read the COPYRIGHT INFO before fork it!
 
 ### META-INF:
 
 Manifest-Version: 1.0
-
 FMLCorePlugin: TMIForgeLoader
-
 FMLAT: TMI_at.cfg
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+TweakOrder: 0
+MixinConfigs: mixins.tmi.json
 
 ### TMI_at.cfg:
 
